@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+     context: ./kege_system
+     dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./education_system.db:/app/education_system.db
+    environment:
+      - FLASK_ENV=development
+
+volumes:
+  sqlite_data:
