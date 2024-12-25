@@ -42,6 +42,6 @@
 ## Шаги:
 
 1. Клонируйте репозиторий: `git clone https://github.com/lenina-packet/kege_system.git`
-2. `cd velo1`
+2. `cd kege_system`
 3. `./build.sh`
 4. Получите готовый проект, перейдите по ссылке <http://localhost:8080>, где попадете на главную страницу.
